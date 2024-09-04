@@ -187,7 +187,7 @@ export default function SignupStep2({
                 <span className="uni_s step2_error">{formError.pw}</span>
               </p>
               <input
-                type="text"
+                type="password"
                 name="userPass"
                 value={formData.userPass}
                 placeholder=" 8~16자리 영문자, 숫자, 특수문자 중 2개 조합"
@@ -201,7 +201,7 @@ export default function SignupStep2({
                 <span className="uni_s step2_error">{formError.pwc}</span>
               </p>
               <input
-                type="text"
+                type="password"
                 name="userPassCheck"
                 value={formData.userPassCheck}
                 placeholder=" 비밀번호 재입력"
